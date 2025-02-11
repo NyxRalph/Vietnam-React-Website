@@ -17,7 +17,7 @@ const BlurText = (props) => {
     {
       filter: 'blur(5px)',
       opacity: 0.5,
-      transform: direction === 'top' ? 'translate3d(0,5px,0)' : 'translate3d(0,-5px,0)',
+      transform: .direction === 'top' ? 'translate3d(0,5px,0)' : 'translate3d(0,-5px,0)',
     },
     { filter: 'blur(0px)', opacity: 1, transform: 'translate3d(0,0,0)' },
   ];
