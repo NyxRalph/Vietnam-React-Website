@@ -1,7 +1,9 @@
-import react from "react";
-import data from "./components/data";
 import BlurText from "./components/countryname";
+import Data from "./components/data";
 
+console.log(Data);
 export default function App() {
-  return data().map((data) => <BlurText key={data.id} data={data} />);
+  return Data().map((Data) => (<BlurText key={Data.id} Data={Data} />))
 }
+   
+
