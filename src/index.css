@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #191a1b0b;
+}
+.background_img_cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./components/Vietnam_img/IMG_6951.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}

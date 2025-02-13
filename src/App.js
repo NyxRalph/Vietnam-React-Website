@@ -1,9 +1,18 @@
 import BlurText from "./components/countryname";
-import Data from "./components/data";
+import Background from "./components/background";
+import './index.css';
 
-console.log(Data);
 export default function App() {
-  return Data().map((Data) => (<BlurText key={Data.id} Data={Data} />))
+  return (
+    <>
+      <Background />
+      <BlurText
+        text="Isn't this so cool?!"
+        delay={150}
+        animateBy="words"
+        direction="top"
+        className="text-2xl mb-8"
+      />
+    </>
+  );
 }
-   
-
