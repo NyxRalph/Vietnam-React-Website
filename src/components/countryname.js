@@ -2,17 +2,17 @@ import { useRef, useEffect, useState } from 'react';
 import { useSprings, animated } from '@react-spring/web';
 
 const BlurText = ({
-  // text = '',
-  // delay = 200,
-  // className = '',
-  // animateBy = 'words', // 'words' or 'letters'
-  // direction = 'top', // 'top' or 'bottom'
-  // threshold = 0.1,
-  // rootMargin = '0px',
-  // animationFrom,
-  // animationTo,
-  // easing = 'easeOutCubic',
-  // onAnimationComplete,
+  text = '',
+  delay = 200,
+  className = '',
+  animateBy = 'words', // 'words' or 'letters'
+  direction = 'top', // 'top' or 'bottom'
+  threshold = 0.1,
+  rootMargin = '0px',
+  animationFrom,
+  animationTo,
+  easing = 'easeOutCubic',
+  onAnimationComplete,
 }) => {
   const elements = animateBy === 'words' ? text.split(' ') : text.split('');
   const [inView, setInView] = useState(false);
