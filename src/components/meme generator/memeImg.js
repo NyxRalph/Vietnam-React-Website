@@ -5,6 +5,7 @@ export default function memeimg(){
         <>
         <div className="imgWrapper">
             <  img src={Img} className="memeImg" alt="###"/>
+            <  img src={Img} className="memeImg" alt="###"/>
         </div>
         </>
     )
