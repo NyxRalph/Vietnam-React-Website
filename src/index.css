@@ -22,3 +22,44 @@ body{
     background-repeat: no-repeat;
     position: relative;
 } */
+
+
+/* MEME HEADER */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    max-width: 1450px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
+}
+.memeheader{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(181, 124, 50);
+    display: flex;
+    align-items: center;
+}
+.memeheader__para{
+    padding: 0px 30px;
+    color: aliceblue;
+    font-size: 25px;
+}
+.landingBlock {
+    border: 2px black;
+    width: 50%;
+}

@@ -1,10 +1,10 @@
-import Img from "../viet/Vietnam_img/"
+
  
-export default function memeimg(){
+export default function Memeimg({imageSrc}){
     return( 
         <>
         <div className="imgWrapper">
-            <  img src={Img} className="memeImg" alt="###"/>
+            <  img src={imageSrc} className="memeImg" alt="###"/>
         </div>
         </>
     )

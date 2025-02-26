@@ -1,4 +1,4 @@
-export default function typeIns (){
+export default function TypeIns (){
     return(
         <>
         <div className="typeIn__container">

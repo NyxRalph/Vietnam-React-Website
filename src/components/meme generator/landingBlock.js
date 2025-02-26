@@ -1,14 +1,15 @@
-import typeIns from "./typeIns";
-import generateButton from "./genratorButton";
-import memeimg from "./memeImg";
+import TypeIns from "./typeIns";
+import GenerateButton from "./genratorButton";
+import Memeimg from "./memeImg";
 
-
-export default function landingBlock (){
-    return(
-        <>
-        <typeIns/>
-        < generateButton/>
-        < memeImg />
-        </>
-    )
+export default function LandingBlock() {
+  return (
+    <>
+      <div className="landingBlock">
+        <TypeIns />
+        <GenerateButton />
+        <Memeimg />
+      </div>
+    </>
+  );
 }
