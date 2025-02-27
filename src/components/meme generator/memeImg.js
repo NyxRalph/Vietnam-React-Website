@@ -3,9 +3,9 @@
 export default function Memeimg({imageSrc}){
     return( 
         <>
-        {/* <div className="imgWrapper">
+        <div className="imgWrapper">
             <  img src={imageSrc} className="memeImg" alt="###"/>
-        </div> */}
+        </div>
         </>
     )
 }
