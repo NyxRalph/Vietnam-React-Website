@@ -11,7 +11,7 @@ export default function App() {
 
       <Memeheader />
       <LandingBlock />
-      <Memeimg imageSrc ={Img} />
+      <Memei mg imageSrc ={Img} />
     </>
   );
 }
